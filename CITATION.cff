@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software or the derived flood maps, please cite it as below."
+title: "Sentinel-1 SAR Flood Inundation Mapping with Microsoft Planetary Computer"
+version: "1.0.0"
+date-released: "2026-07-12"
+type: software
+license: MIT
+abstract: >-
+  Open-source pipeline that downloads Sentinel-1 Radiometrically Terrain
+  Corrected (RTC) SAR data from the Microsoft Planetary Computer STAC API,
+  applies VV backscatter change detection between a pre-event (2026-06-28)
+  and post-event (2026-07-10) acquisition over a Central Myanmar area of
+  interest, and exports a publication-ready flood inundation map.
+keywords:
+  - Sentinel-1
+  - SAR
+  - flood mapping
+  - change detection
+  - Planetary Computer
+  - remote sensing
+  - Myanmar
+repository-code: "https://github.com/USERNAME/REPO"
+authors:
+  - name: "Repository Contributors"
+    alias: "contributors"
+preferred-citation:
+  type: software
+  title: "Sentinel-1 SAR Flood Inundation Mapping with Microsoft Planetary Computer"
+  version: "1.0.0"
+  year: 2026
+  authors:
+    - name: "Repository Contributors"
+  notes: >-
+    Replace USERNAME/REPO and authors before publication. Credit Copernicus
+    Sentinel data and Microsoft Planetary Computer in any derived work.

@@ -1,0 +1,41 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / IDE
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Large intermediate products (regenerate with the pipeline)
+outputs/vv_db.npz
+*.npz
+*.nc
+*.h5
+
+# Local secrets / OS
+.env
+.env.*
+*.log
+Thumbs.db
+
+# Optional local test scratch
+tmp/
+scratch/
+.cache/
