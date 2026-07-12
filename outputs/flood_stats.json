@@ -1,0 +1,15 @@
+{
+  "water_threshold_db": -14.0,
+  "change_threshold_db": -3.0,
+  "flood_pixels": 745221,
+  "permanent_water_pixels": 1393271,
+  "valid_pixels": 23601141,
+  "flood_area_km2": 670.5405804394064,
+  "permanent_water_area_km2": 1253.6479045134158,
+  "pixel_area_km2": 0.0008997875535437226,
+  "resolution_m": 30,
+  "pre_date": "2026-06-28",
+  "post_date": "2026-07-10",
+  "collection": "sentinel-1-rtc",
+  "method": "VV dB change detection (post-water + \u0394VV decrease; exclude permanent water)"
+}
